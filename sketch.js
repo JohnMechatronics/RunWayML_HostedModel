@@ -6,8 +6,8 @@ let truncation_value = 0.8;
 //Click on the line labled code </>
 
 const model = new rw.HostedModel({
-  url: "https://machinicbeach-8a18b63a.hosted-models.runwayml.cloud/v1/",
-  token: "W5vfLikK5zXdZeH7J7bK7w==",
+  url: "YOUR_MODEL_URL",
+  token: "YOUR_TOKEN",
 });
 
 if(typeof(model)=='undefined'){
